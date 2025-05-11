@@ -1,0 +1,1 @@
+javascript:(function(){try{const data=window.__data?.webProfile;if(data){const json=JSON.stringify(data,null,2);const win=window.open();win.document.write('<pre>'+json.replace(/</g,'&lt;').replace(/>/g,'&gt;')+'</pre>');win.document.title="webProfile JSON";}else{alert("No se encontró 'webProfile' en window.__data.");}}catch(e){alert("Error: "+e);}})();
