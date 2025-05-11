@@ -24,7 +24,7 @@ This is a bookmarklet that extracts and displays the `webProfile` JSON object fr
 
 ```json
 {
-  "username":user,
+  "username": "user",
   "user": {
       "birth_date": "1980-05-14T07:12:30.234Z",
       "_id": "560...",
